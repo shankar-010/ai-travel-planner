@@ -1,0 +1,95 @@
+# =========================
+# MAVEN / BUILD
+# =========================
+
+target/
+build/
+dist/
+
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# =========================
+# MAVEN WRAPPER
+# =========================
+
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# SPRING BOOT
+# =========================
+
+application.properties
+src/main/resources/application.properties
+
+# =========================
+# ENV FILES
+# =========================
+
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# =========================
+# LOG FILES
+# =========================
+
+*.log
+
+# =========================
+# IDE FILES
+# =========================
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# =========================
+# OS FILES
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# NODE MODULES (FRONTEND)
+# =========================
+
+node_modules/
+
+# =========================
+# FRONTEND BUILD
+# =========================
+
+frontend/dist/
+frontend/node_modules/
+
+# =========================
+# SECURITY
+# =========================
+
+*.pem
+*.key
+*.crt
