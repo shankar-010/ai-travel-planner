@@ -94,7 +94,18 @@ Groq AI API
 Generated Travel Itinerary
 
 📸 Screenshots
+Login Page
+<img width="767" height="813" alt="image" src="https://github.com/user-attachments/assets/b510fe85-157b-4bc2-a2d0-6e4268c8da4a" />
 
+Dashboard
+<img width="1664" height="746" alt="image" src="https://github.com/user-attachments/assets/73cfc2d6-fc49-4927-b380-b499061d9afe" />
+
+AI Planner
+<img width="1187" height="476" alt="image" src="https://github.com/user-attachments/assets/37641774-4bbb-4a40-ba15-efa3bd285595" />
+<img width="712" height="618" alt="image" src="https://github.com/user-attachments/assets/44d8d57c-d13b-4050-8bfe-dff080257b82" />
+
+Trip Details
+<img width="801" height="661" alt="image" src="https://github.com/user-attachments/assets/49b91057-fc49-4e32-ba45-785e90d867f7" />
 
 
 Future Improvements
