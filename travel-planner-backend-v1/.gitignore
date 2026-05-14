@@ -19,8 +19,8 @@ dist/
 # SPRING BOOT
 # =========================
 
-application.properties
-src/main/resources/application.properties
+# application.properties
+# src/main/resources/application.properties
 
 # =========================
 # ENV FILES
