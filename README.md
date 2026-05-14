@@ -57,7 +57,7 @@ ai-travel-planner/
 ├── backend/
 │
 └── README.md
-
+```
 
 ⚙️ Backend Setup
 1️⃣ Navigate to backend
@@ -96,7 +96,8 @@ Generated Travel Itinerary
 📸 Screenshots
 Login Page
 
-<img width="767" height="813" alt="image" src="https://github.com/user-attachments/assets/b510fe85-157b-4bc2-a2d0-6e4268c8da4a" />
+<img width="767" height="813" alt="Screenshot 2026-05-14 234101" src="https://github.com/user-attachments/assets/557c6180-772d-4c16-bbc6-28a762692e46" />
+
 
 Dashboard
 
