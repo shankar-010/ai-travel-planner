@@ -169,7 +169,7 @@ function EmergencyHelper({ city }) {
 
     const loadContacts = async () => {
       try {
-        const res = await fetch(`${import.meta.env.VITE_API_URL}/api/emergency/${city}`);
+        const res = await fetch(`${process.env.REACT_APP_API_URL}/api/emergency/${city}`);
         const data = await res.json();
         setContacts(Array.isArray(data) && data.length > 0 ? data : FALLBACK_CONTACTS);
       } catch {

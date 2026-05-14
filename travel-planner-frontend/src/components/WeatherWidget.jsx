@@ -7,7 +7,7 @@ function WeatherWidget({ city }) {
   useEffect(() => {
     if (!city) return;
 
-    fetch(`${import.meta.env.VITE_API_URL}/api/weather/${city}`)
+    fetch(`${process.env.REACT_APP_API_URL}/api/weather/${city}`)
       .then(res => {
         if (!res.ok) throw new Error("Weather error");
         return res.json();

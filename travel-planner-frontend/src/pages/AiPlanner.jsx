@@ -29,7 +29,7 @@ function AiPlanner() {
       const token = localStorage.getItem("token");
 
       const res = await fetch(
-        `${import.meta.env.VITE_API_URL}/api/ai/generate-itinerary`,
+        `${process.env.REACT_APP_API_URL}/api/ai/generate-itinerary`,
         {
           method: "POST",
 

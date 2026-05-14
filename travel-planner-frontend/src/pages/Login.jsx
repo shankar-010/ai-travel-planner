@@ -220,7 +220,7 @@ function Login() {
 
       const res = await fetch(
 
-        `${import.meta.env.VITE_API_URL}/api/auth/login`,
+        `${process.env.REACT_APP_API_URL}/api/auth/login`,
 
         {
           method: "POST",
