@@ -433,7 +433,7 @@
 
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-
+import WeatherWidget from "../components/WeatherWidget";
 import {
   Calendar,
   MapPin,
@@ -612,6 +612,12 @@ function TripDetails() {
           {/* RIGHT SIDE */}
 
           <div className="space-y-8">
+
+
+
+<div className="bg-white rounded-3xl border border-slate-100 shadow-sm p-8">
+  <WeatherWidget city={trip.destination} />
+</div>
 
             {/* CHECKLIST */}
 
